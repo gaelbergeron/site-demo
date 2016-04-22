@@ -1,0 +1,51 @@
+* {
+  font-family: 'Cabin', serif;  
+}
+
+#logo {
+  font-size: 48px;
+}
+
+#question-wrapper {
+  width: 100%;
+  height: 12em;
+  /*background-color: white;*/
+  background: rgba(255,255,255,0.5);
+  /*opacity: 0.4;*/
+  position: absolute;
+  top: 8em;
+}
+
+#questions {
+  text-align: center;
+  opacity: 1;
+  font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#finale {
+  font-size: 1.6em;
+}
+
+#presentation {
+  text-align: center;
+  margin: 2em;
+  /*margin-left: 2em;*/
+  /*margin-right: 2em;*/
+  font-size: 1.15em;
+}
+
+#launch {
+  font-size: 2.1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+#email{
+  font-size: 1.2em;
+  text-align: center;
+}
