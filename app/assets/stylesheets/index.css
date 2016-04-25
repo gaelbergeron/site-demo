@@ -56,7 +56,6 @@ ul {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
   #email{
-    font-size: 6.2em;
-    text-align: center;
+
   }
 }
