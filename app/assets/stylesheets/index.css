@@ -1,12 +1,12 @@
 * {
-  font-family: 'Cabin', serif;  
+  font-family: 'Source Sans Pro', serif;  
 }
 
 #logo {
   font-size: 48px;
 }
 
-#question-wrapper {
+#container-1 {
   width: 100%;
   height: 12em;
   /*background-color: white;*/
@@ -16,26 +16,21 @@
   top: 8em;
 }
 
-#questions {
+#main-tagline {
   text-align: center;
   opacity: 1;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 2em 6em 0em 6em;
 }
-
-ul {
-    list-style-type: none;
-}
-
 
 #finale {
   font-size: 1.6em;
 }
 
-#presentation {
+#container-2 {
   text-align: center;
-  margin: 2em;
-  /*margin-left: 2em;*/
-  /*margin-right: 2em;*/
+  margin: 2em 12em 2em 12em;
   font-size: 1.15em;
 }
 
