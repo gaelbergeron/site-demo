@@ -1,22 +1,31 @@
 * {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', serif;  
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 body {
   margin: 0;
 }
 
-a:link,
 a:visited {
-  font-size: 48px;
   text-decoration: none;
   color: black;
 }
 
 a:hover {
   color: #009bff;
+}
+
+#logo {
+  font-size: 48px;
+  float: left;
+  width: 5em;
+}
+
+.menu {
+  padding-top: 0.8em;
+  font-size: 1.3em;
 }
 
 #main-img {
