@@ -6,14 +6,18 @@
   font-size: 48px;
 }
 
+#main-img {
+  width: 105%;
+  margin-left: -1em;
+}
+
 #container-1 {
-  width: 100%;
+  width: 105%;
   height: 12em;
-  /*background-color: white;*/
   background: rgba(255,255,255,0.5);
-  /*opacity: 0.4;*/
   position: absolute;
   top: 8em;
+  margin-left: -1em;
 }
 
 #main-tagline {
