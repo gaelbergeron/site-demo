@@ -4,6 +4,11 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get 'apropos' => 'welcome#apropos'
+  get 'faq' => 'welcome#faq'
+  get 'commentcamarche' => 'welcome#commentcamarche'
+  get 'cgv' => 'welcome#cgv'
+  get 'mentionslegales' => 'welcome#mentionslegales'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

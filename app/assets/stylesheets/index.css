@@ -1,23 +1,35 @@
 * {
+  box-sizing: border-box;
   font-family: 'Source Sans Pro', serif;  
+  /*border: 1px solid red;*/
 }
 
-#logo {
+body {
+  margin: 0;
+}
+
+a:link,
+a:visited {
   font-size: 48px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #009bff;
 }
 
 #main-img {
-  width: 105%;
-  margin-left: -1em;
+  width: 100%;
+  z-index: 0;
 }
 
 #container-1 {
-  width: 105%;
+  width: 100%;
   height: 12em;
   background: rgba(255,255,255,0.5);
   position: absolute;
   top: 8em;
-  margin-left: -1em;
 }
 
 #main-tagline {
@@ -41,7 +53,7 @@
 }
 
 #launch {
-  font-size: 2.1em;
+  font-size: 3.1em;
   text-align: center;
   margin-top: 2em;
 }
