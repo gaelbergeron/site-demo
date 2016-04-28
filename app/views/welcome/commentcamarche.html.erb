@@ -1,3 +1,6 @@
+<%= image_tag("main-img-narrow.png", id:'main-img' ) %>
+<div id="background-container">
+
 <div id="main-container">
 
   <div id="ccm-container-1">
@@ -5,47 +8,53 @@
     <p id="endroit">Vous êtes au bon endroit !</p>
   </div>
 
-  <div id="ccm-container-2">
-    <div id='vente'>Vente</div>
-    <div id='expertise'>Expertise</div>
-    <div id='prix'>Prix</div>
-    <div id='achat'>Achat</div>
-  </div>
+  <nav data-magellan>
+    <ul class="horizontal menu expanded">
+      <li class="top-menu"><a href="#vente-container">Vente</a></li>
+      <li class="top-menu"><a href="#expertise-container">Expertise</a></li>
+      <li class="top-menu"><a href="#prix-container">Prix</a></li>
+      <li class="top-menu"><a href="#achat-container">Achat</a></li>
+    </ul>
+  </nav>
 
   <div id="vente-container">
 
     <p id="beau">C'est bien beau tout ça, mais...</p>
-    <h1 id="ccm?">Comment ça marche ?</h1>
+    <h2 id="ccm?">Comment ça marche ?</h2>
     <p id="information">Tout d'abord, enregistrez votre voiture en ligne. En nous indiquant quelques informations essentielles</p>
-    <ul>
-      <li>Marque</li>
-      <li>Modèle</li>
-      <li>Année</li>
-      <li>Finition</li>
-      <li>Kilométrage</li>
-    </ul>
+
+    <table id="car-info">
+      <tr>
+        <td>Marque</td>
+        <td>Modèle</td>
+        <td>Année</td>
+        <td>Finition</td>
+        <td>Kilométrage</td>
+      </tr>
+    </table>
+
     <p id="lieu">Dites-nous aussi où vous êtes et nous vous contacterons pour planifier une expertise de la voiture, 100% gratuite.</p>
 
     <div id="vente-sub-container-1">
-      <h1 class="sub-container-title">Chez vous, à vos bureaux, où bon vous semble</h1> 
+      <h2 class="sub-container-title">Chez vous, à vos bureaux, où bon vous semble</h2> 
       <p class="sub-container-content">Un de nos experts se déplacera pour compléter l’expertise de votre bijou. Aucune voiture n’est mise en vente sans obtenir la certification Projet Vroom.</p>
       <p class="sub-container-content">Nous prendrons également de magnifiques photos pour mettre en valeur et représenter de façon très détaillée votre véhicule, toujours 100% gratuit.</p>
     </div>
 
     <div id="vente-sub-container-2">
-      <h1 class="sub-container-title">Chez vous, à vos bureaux, où bon vous semble</h1> 
+      <h2 class="sub-container-title">Une visibilité maximale</h2> 
       <p class="sub-container-content">Une fois les vérifications complétées nous mettons votre annonce en ligne sur notre site, ainsi que sur les plus grandes plateformes françaises pour une visibilité maximale: Le Bon Coin, L’argus et La Centrale.</p>
       <p class="sub-container-content">Nous vous demanderons même une petite description de la voiture dans vos propres mots: pourquoi vous la vendez, les aventures, bons moments et souvenirs que vous avez vécu avec. Les voitures ont des personnalités, il faut les mettre en avant !</p>
     </div>
 
     <div id="vente-sub-container-3">
-      <h1 class="sub-container-title">On s’occupe de tout!</h1> 
+      <h2 class="sub-container-title">On s’occupe de tout!</h2> 
       <p class="sub-container-content">Vous n’avez pas à lever un petit doigt, nous nous occupons de tout ! Continuez à conduire le temps que nous trouvions un acheteur.</p>
       <p class="sub-container-content">Soyez sans crainte, avec un tel niveau d’information et de visibilité, nos belles autos partent très vite.</p>
     </div>
 
     <div id="vente-sub-container-4">
-      <h1 class="sub-container-title">C’est l’heure de dire au-revoir</h1> 
+      <h2 class="sub-container-title">C’est l’heure de dire au-revoir</h2> 
       <p class="sub-container-content">Dès qu’un acheteur se manifeste nous venons prendre la voiture chez vous, en prime nous lui refaisons une petite beauté avant de la livrer chez l’acheteur.</p>
       <p class="sub-container-content">Nous nous occupons bien sûr de gérer le paiement, vous gardez le contrôle de votre voiture tant que le transfert n’est pas sécurisé. Nos partenaires Lemon Way et BNP Paribas travaillent avec nous pour vous garantir une complète tranquillité d’esprit.</p>
       <p class="sub-container-content">Il arrive que l’acheteur ait un doute au moment de l’essai, dans ce cas nous ramènerons la voiture chez vous, propre et avec le plein. Notre philosophie est d’offrir un service sans aucune pression d’achat. Promis, un autre acheteur ne sera pas loin.</p>
@@ -56,7 +65,7 @@
   <div id="expertise-container">
     
     <p id="expertise">L'expertise</p>
-    <h1 id="quid?">Mais qu'est-ce donc ?</h1>
+    <h2 id="quid?">Qu'est-ce que c'est ?</h2>
     <p id="rituel">Rituel de passage pour toutes nos voitures, il s’agit de 2 heures au cours desquelles notre expert se déplace chez vous pour inspecter titine dans ses moindres recoins. Notre expert vérifie:</p>
     <ul>
       <li>130 points</li>
@@ -68,11 +77,74 @@
     <p id="assurance">Rien n’échappe à nos experts, notre certification vous permet d’y aller les yeux fermés (assurez-vous de les rouvrir pour prendre le volant).</p>
 
     <div id="vente-sub-container-4">
-      <h1 class="sub-container-title">Qui sont ces experts ?</h1> 
+      <h2 class="sub-container-title">Qui sont ces experts ?</h2> 
       <p class="sub-container-content">[Réponse à finaliser]</p>
     </div>
 
+  </div>
+
+  <div id="prix-container">
+    <h2 class="prix-titre">Les vendeurs en obtiennent plus.</h2>
+    <h2 class="prix-titre">Les acheteurs paient moins.</h2>
+    <p id="prix-question">D’où vient ce miracle automobile ?</p>
+    <p id="prix-reponse">Nous connectons les particuliers acheteurs et vendeurs, de façon organisée, efficace et sécurisée.</p>
+    <div id="avant"></div>
+      <p class="prix-sous-titre">Avant, 2 possibilités :</p>
+      <p class="prix-contenu">-Éplucher les annonces pendant des heures, faire semblant d’inspecter la voiture puis négocier son prix sans jamais être sûr de faire une bonne affaire.</p>
+      <p class="prix-contenu">-Écumer les concessionnaires et accepter leur marge de 20% pour être sûr d’acheter une auto fiable.</p>
+    <div id="apres"></div>
+      <p class="prix-sous-titre">Aujourd’hui :</p>
+      <p class="prix-contenu">Projet Vroom propose le meilleur des deux mondes en ajoutant des services professionnels entre particuliers, sans les marges du concessionaire.</p>
+      <p class="prix-contenu">Nous n’avons pas d’entrepôts, pas de showrooms, ni commerciaux. Ces économies vous reviennent directement ! Vous pouvez commencer à réfléchir à comment vous allez dépenser ces euros économisés :-)</p>
+    <div id="prix-sub-container-1">
+      <h2 class="sub-container-title">Comment fixons-nous le prix de vente?</h2> 
+      <p class="sub-container-content">Nos prix de vente proviennent de la base de données Autovista qui met à jour de façon hebdomadaire la valeur marchande des véhicules d’occasion en fonction de l’offre et de la demande.</p>
+      <p class="sub-container-content">Ce prix est ensuite ajusté en fonction du kilométrage et de l’état général du véhicule validés lors de l’inspection. Basé sur des critères objectifs, sans favoritisme, nos prix sont non négociables</p>
+    </div>
+    <div id="prix-sub-container-2">
+      <h2 class="sub-container-title">Et votre marge dans tout ça?</h2> 
+      <p class="sub-container-content">Nos frais s'élèvent 5% du prix de vente.</p>
+      <p class="sub-container-content">Pour une fraction de la commission des concessionaires nous nous occupons de pré-sélectionner, expertiser, certifier, photographier puis livrer et transiger la voiture. Rien que ça.</p>
+      <p class="sub-container-content">Avec Projet Vroom on vous enlève tous les soucis et pertes de temps. Vendre et acheter sa voiture d'occasion devient enfin un plaisir !</p>
+    </div>
+  </div>
+
+  <div id="achat-container">
+    <h2 id="achat-main-title">Une meilleure façon d’acheter</h2>
+    <div id="achat-title-1">
+      <h3 class="achat-title">Les meilleures voitures</h3>
+      <p class="achat-content">Expertise rigoureuse 130 points et 3 mois de garantie: on regarde tout, on fait le tri pour vous, seulement des voitures de qualité, allez-y les yeux fermés.</p>
+    </div>
+    <div id="achat-title-2">
+      <h3 class="achat-title">Au meilleur prix</h3>
+      <p class="achat-content">En éliminant les coûts du concessionnaire traditionnel, nous vous proposons des voitures jusqu’à 20% moins chères.   Encore plus de budget pour la caravane (enfin, vous faites ce que vous voulez).</p>
+    </div>
+    <div id="achat-title-3">
+      <h3 class="achat-title">Chez vous, sans aucune  pression d’achat (jamais)</h3>
+      <p class="achat-content">La voiture apparaîtra devant chez vous comme par magie, n’importe où en France. Vous ne finalisez le paiement que si vous avez le coup de coeur, vous ne sentirez jamais aucune pression d’achat.  Pour les livraisons longue-distance des frais supplémentaires s’appliquent, nous ne ferons jamais rien sans votre autorisation.</p>
+    </div>
+    <div id="achat-sub-container-1">
+      <h2 class="sub-container-title">Comme si vous y étiez</h2> 
+      <p class="sub-container-content">Pour chacune de nos voitures vous pouvez consulter des dizaines de photos haute-résolution, la liste des caractéristiques et options, ainsi que les résultats de l’expertise 130 points.</p>
+    </div>
+    <div id="achat-sub-container-2">
+      <h2 class="sub-container-title">Paiement simple et sécurisé</h2>
+      <p class="sub-container-content">Le paiement s'effectue par virement, là aussi nous avons cherché à vous simplifier la vie. Nous travaillons avec Lemon Way et BNP Paribas pour vous garantir une complète tranquillité d’esprit.</p>
+      <p class="sub-container-content">On ne le répètera jamais assez: ne finalisez le paiement que si vous avez le coup de coeur !</p>
+    </div>
+    <div id="achat-sub-container-3">
+      <h2 class="sub-container-title">Garantie 6 mois</h2> 
+      <p class="sub-container-content">Repartez l’esprit léger grâce une garantie qui vous couvrira en cas de pépin mécanique jusqu’à 6 mois après l'achat.</p>
+      <p class="sub-container-content">Cette garantie est gérée par par notre partenaire XXXX et couvrira l'ensemble des pièces critiques de la voiture: moteur, boîte de vitesse, transmission, direction, circuits électrique, freinage, circuit de refroidissement, système d'alimentation, climatisation, sécurité, pont.</p>
+    </div>
+    <div id="achat-sub-container-4">
+      <h2 id="call-us-title">Appelez-nous !</h2>
+      <p id="call-us-content">À votre disposition tout les jours !</p>
+      <p id="call-us-number">07 61 25 80 89</p>    
+    </div>
 
   </div>
+
+</div>
 
 </div>

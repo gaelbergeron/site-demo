@@ -1,6 +1,12 @@
+#background-container {
+  background-color: #F5F3F3;
+  padding-top: 1em;
+}
+
 #main-container {
-  width: 50em;
+  width: 60em;
   margin: auto;
+  margin-top: 4em;
 }
 
 #questions {
@@ -9,4 +15,72 @@
 
 #endroit {
   font-size: 3em;
+}
+
+.horizontal {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.top-menu {
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px solid black;
+}
+
+#vente-container {
+  background-color: white;
+  padding: 1.5em;
+  padding-bottom: 65em;
+}
+
+#beau {
+  font-size: 1.3em;
+}
+
+#car-info {
+  text-align: center;
+  font-size: 1.5em;
+  width: 80%;
+  margin: 0em auto 0.7em auto;
+
+}
+
+.sub-container-title {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.sub-container-content {
+  margin-bottom: 0.6em;
+  line-height: 20px;
+}
+
+#vente-sub-container-1 {
+  width: 60%;
+  float: right;
+  margin-bottom: 3em;
+}
+
+#vente-sub-container-2 {
+  width: 60%;
+  float: left;
+  margin-bottom: 3em;
+}
+
+#vente-sub-container-3 {
+  width: 60%;
+  float: right;
+  margin-bottom: 3em;
+}
+
+#vente-sub-container-4 {
+  width: 60%;
+  float: left;
+  margin-bottom: 3em;
+}
+
+#expertise-container {
+  margin-top: 10em;
+  background-color: white;
 }
