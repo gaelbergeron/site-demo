@@ -43,11 +43,10 @@
   font-size: 1.5em;
   width: 80%;
   margin: 0em auto 0.7em auto;
-
 }
 
 .sub-container-title {
-  font-size: 1.6em;
+  font-size: 1.59em;
   font-weight: 500;
 }
 
@@ -57,8 +56,9 @@
 }
 
 #vente-sub-container-1 {
-  width: 60%;
+  width: 65%;
   float: right;
+  margin-top: 3em;
   margin-bottom: 3em;
 }
 
@@ -78,9 +78,106 @@
   width: 60%;
   float: left;
   margin-bottom: 3em;
+  margin-top: 2em;
 }
 
 #expertise-container {
   margin-top: 10em;
   background-color: white;
+  padding: 1.5em;
+  height: 38em;
 }
+
+#expertise {
+  font-size: 1.3em;
+}
+
+#expertise-info {
+  text-align: center;
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0em auto 0.7em auto;
+}
+
+#prix-container {
+  margin-top: 10em;
+  background-color: white;
+  padding: 1.5em;
+  height: 68em;
+}
+
+.prix-titre {
+  margin-bottom: -0.2em;
+}
+
+#prix-question {
+  margin-top: 2em;
+}
+
+#prix-reponse {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#avant {
+  width: 45%;
+  float: left;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+#apres {
+  width: 45%;
+  float: right;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.prix-contenu {
+  line-height: 20px;
+}
+
+#prix-sub-container-1 {
+  width: 60%;
+  float: left;
+  margin-bottom: 3em;
+}
+
+.prix-sous-titre {
+  font-weight: 600;
+}
+
+#prix-sub-container-2 {
+  margin-top: 3em;
+  width: 60%;
+  float: right;
+  margin-bottom: 3em;
+}
+
+#achat-container {
+  margin-top: 10em;
+  background-color: white;
+  padding: 1.5em;
+  height: 68em;
+}
+
+#achat-info {
+  text-align: center;
+}
+
+#achat-main-title {
+  margin-bottom: 1.5em;
+}
+
+#achat-sub-title {
+  font-weight: 600;
+  font-size: 1.15em;
+  height: 4em;
+}
+
+#achat-sub-content {
+  background-color: white;
+}
+
+
