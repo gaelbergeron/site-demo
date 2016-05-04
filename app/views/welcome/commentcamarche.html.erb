@@ -21,7 +21,7 @@
 
     <p id="beau">C'est bien beau tout ça, mais...</p>
     <h2 id="ccm?">Comment ça marche ?</h2>
-    <p id="information">Tout d'abord, enregistrez votre voiture en ligne. En nous indiquant quelques informations essentielles</p>
+    <p id="information">Tout d'abord, enregistrez votre voiture en nous indiquant quelques informations essentielles</p>
 
     <table id="car-info">
       <tr>
@@ -34,6 +34,11 @@
     </table>
 
     <p id="lieu">Dites-nous aussi où vous êtes et nous vous contacterons pour planifier une expertise de la voiture, 100% gratuite.</p>
+
+      <%= image_tag("house-img.png", class:'place-img' ) %>
+      <%= image_tag("office-img.png", class:'place-img' ) %>
+      <%= image_tag("parking-img.png", class:'place-img' ) %>
+
 
     <div id="vente-sub-container-1">
       <h2 class="sub-container-title">Chez vous, à vos bureaux, où bon vous semble</h2> 
@@ -66,7 +71,7 @@
     
     <p id="expertise">L'expertise</p>
     <h2 id="quid?">Qu'est-ce que c'est ?</h2>
-    <p id="rituel">Rituel de passage pour toutes nos voitures, il s’agit de 2 heures au cours desquelles notre expert se déplace chez vous pour inspecter titine dans ses moindres recoins. Notre expert vérifie:</p>
+    <p id="rituel">Rituel de passage pour toutes nos voitures, il s’agit d'une heure au cours de laquelle notre expert se déplace chez vous pour inspecter titine dans ses moindres recoins. Notre expert vérifie:</p>
 
     <table id="expertise-info">
       <tr>
@@ -80,10 +85,13 @@
 
     <p id="assurance">Rien n’échappe à nos experts, notre certification vous permet d’y aller les yeux fermés (assurez-vous de les rouvrir pour prendre le volant).</p>
 
-    <div id="vente-sub-container-4">
+    <div id="expertise-sub-container-1">
       <h2 class="sub-container-title">Qui sont ces experts ?</h2> 
-      <p class="sub-container-content">Notre partenaire BCA Expertise est un leader du domaine. Avec un réseau de 600 experts agréés par le Ministère de l'intérieur, ils peuvent intervenir chez vous en moins de 48h. Si tout est conforme, la qualité de votre voiture est certifiée et devient une auto Nationale 7 !</p>
+      <p class="sub-container-content">Notre partenaire Experveo, filiale de BCA Expertise, un leader du domaine. Avec un réseau de 600 experts agréés par le Ministère de l'intérieur, ils peuvent intervenir chez vous en moins de 48h. Si tout est conforme, la qualité de votre voiture est certifiée et devient une auto Nationale 7 !</p>
     </div>
+
+    <%= image_tag("experveo.png", id:'experveo-img' ) %>
+
 
   </div>
 
@@ -95,21 +103,24 @@
     <div id="avant">
       <p class="prix-sous-titre">Avant, 2 possibilités :</p>
       <p class="prix-contenu">-Éplucher les annonces pendant des heures, faire semblant d’inspecter la voiture puis négocier son prix sans jamais être sûr de faire une bonne affaire.</p>
-      <p class="prix-contenu">-Écumer les concessionnaires et accepter leur marge de 20% pour être sûr d’acheter une auto fiable.</p>
+      <p class="prix-contenu">-Écumer les concessionnaires et accepter leur marge de 20 à 30% pour être sûr d’acheter une auto fiable.</p>
     </div>
     <div id="apres">
       <p class="prix-sous-titre">Aujourd’hui :</p>
       <p class="prix-contenu">Nationale 7 propose le meilleur des deux mondes en ajoutant des services professionnels entre particuliers, sans les marges du concessionaire.</p>
-      <p class="prix-contenu">Nous n’avons pas d’entrepôts, pas de showrooms, ni commerciaux. Ces économies vous reviennent directement ! Vous pouvez commencer à réfléchir à comment vous allez dépenser ces euros économisés :-)</p>
+      <p class="prix-contenu">Nous n’avons pas d’entrepôts, pas de showrooms, ni commerciaux. Ces économies vous reviennent directement ! Vous pouvez maintenant réfléchir à comment vous allez dépenser ces euros économisés :-)</p>
     </div>
     <div id="prix-sub-container-1">
       <h2 class="sub-container-title">Comment fixons-nous le prix de vente?</h2> 
-      <p class="sub-container-content">Nos prix de vente proviennent de la base de données Autovista qui met à jour de façon hebdomadaire la valeur marchande des véhicules d’occasion en fonction de l’offre et de la demande.</p>
+      <p class="sub-container-content">Nos prix de vente proviennent de la base de données Autovista qui met constamment à jour la valeur marchande des véhicules d’occasion en fonction de l’offre et de la demande. Autovista est le leader européen auprès des professionnels de l'automobile.</p>
       <p class="sub-container-content">Ce prix est ensuite ajusté en fonction du kilométrage et de l’état général du véhicule validés lors de l’inspection. Basé sur des critères objectifs, sans favoritisme, nos prix sont non négociables</p>
     </div>
+
+    <%= image_tag("autovista.jpg", id:'autovista-img' ) %>
+
     <div id="prix-sub-container-2">
       <h2 class="sub-container-title">Et votre marge dans tout ça?</h2> 
-      <p class="sub-container-content">Nos frais s'élèvent 5% du prix de vente.</p>
+      <p class="sub-container-content">Nos frais s'élèvent 5% du prix de vente. Ceci vous permet d'obtenir jusqu'à 15% de plus pour votre voiture.</p>
       <p class="sub-container-content">Pour une fraction de la commission des concessionaires nous nous occupons de pré-sélectionner, expertiser, certifier, photographier puis livrer et transiger la voiture. Rien que ça.</p>
       <p class="sub-container-content">Avec Nationale 7 on vous enlève tous les soucis et pertes de temps. Vendre et acheter sa voiture d'occasion devient enfin un plaisir !</p>
     </div>
@@ -125,9 +136,9 @@
         <td>Chez vous, sans aucune  pression d’achat</td>
       </tr>
       <tr id="achat-sub-content">
-        <td>Expertise rigoureuse 130 points et 3 mois de garantie: on regarde tout, on fait le tri pour vous, seulement des voitures de qualité, allez-y les yeux fermés.</td>
+        <td>Expertise rigoureuse 75 points et 6 mois de garantie: on regarde tout, on fait le tri pour vous, seulement des voitures de qualité, allez-y les yeux fermés.</td>
         <td>En éliminant les coûts du concessionnaire traditionnel, nous vous proposons des voitures en moyenne 10% moins chères.   Encore plus de budget pour la caravane (enfin, vous faites ce que vous voulez).</td>
-        <td>La voiture apparaîtra devant chez vous comme par magie, n’importe où en France. Vous ne finalisez le paiement que si vous avez le coup de coeur, vous ne sentirez jamais aucune pression d’achat.  Pour les livraisons longue-distance des frais supplémentaires s’appliquent, nous ne ferons jamais rien sans votre autorisation.</td>
+        <td>La voiture apparaîtra devant chez vous comme par magie, n’importe où en France. Vous ne finalisez le paiement que si vous avez le coup de coeur, vous ne sentirez jamais aucune pression d’achat.  Pour les livraisons longue-distance des frais supplémentaires s’appliquent, contactez-nous pour en savoir plus.</td>
       </tr>
     </table>
 
@@ -136,8 +147,11 @@
 
     <div id="achat-sub-container-1">
       <h2 class="sub-container-title">Comme si vous y étiez</h2> 
-      <p class="sub-container-content">Pour chacune de nos voitures vous pouvez consulter des dizaines de photos haute-résolution, la liste des caractéristiques et options, ainsi que les résultats de l’expertise 130 points.</p>
+      <p class="sub-container-content">Pour chacune de nos voitures vous pouvez consulter des dizaines de photos haute-résolution, la liste des caractéristiques et options, ainsi que les résultats de l’expertise 75 points.</p>
     </div>
+    <%= image_tag("car-check.png", id:'car-check-img' ) %>
+    <%= image_tag("lemonway.png", id:'lemonway-img' ) %>
+
     <div id="achat-sub-container-2">
       <h2 class="sub-container-title">Paiement simple et sécurisé</h2>
       <p class="sub-container-content">Le paiement s'effectue par virement, là aussi nous avons cherché à vous simplifier la vie. Nous travaillons avec Lemon Way et BNP Paribas pour vous garantir une complète tranquillité d’esprit.</p>
@@ -148,13 +162,15 @@
       <p class="sub-container-content">Repartez l’esprit léger grâce une garantie qui vous couvrira en cas de pépin mécanique jusqu’à 6 mois après l'achat.</p>
       <p class="sub-container-content">Cette garantie est gérée par par notre partenaire XXXX et couvrira l'ensemble des pièces critiques de la voiture: moteur, boîte de vitesse, transmission, direction, circuits électrique, freinage, circuit de refroidissement, système d'alimentation, climatisation, sécurité, pont.</p>
     </div>
-    <div id="achat-sub-container-4">
+
+  </div>
+    
+    <div id="contact-CCM">
       <h2 id="call-us-title">Appelez-nous !</h2>
-      <p id="call-us-content">À votre disposition tout les jours !</p>
+      <p id="call-us-content">Nous sommes à votre disposition tout les jours de 9h à 20h !</p>
       <p id="call-us-number">07 61 25 80 89</p>    
     </div>
 
-  </div>
 
 </div>
 

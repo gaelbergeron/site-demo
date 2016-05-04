@@ -1,6 +1,7 @@
 #background-container {
   background-color: #F5F3F3;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #main-container {
@@ -31,7 +32,7 @@
 #vente-container {
   background-color: white;
   padding: 1.5em;
-  padding-bottom: 65em;
+  padding-bottom: 58em;
 }
 
 #beau {
@@ -53,6 +54,12 @@
 .sub-container-content {
   margin-bottom: 0.6em;
   line-height: 20px;
+}
+
+.place-img {
+  width: 7%;
+  margin-left: 1.6em;
+  margin-top: 5.5em;
 }
 
 #vente-sub-container-1 {
@@ -99,11 +106,23 @@
   margin: 0em auto 0.7em auto;
 }
 
+#expertise-sub-container-1 {
+  width: 55%;
+  float: left;
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+
+#experveo-img {
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
 #prix-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
-  height: 68em;
+  height: 72em;
 }
 
 .prix-titre {
@@ -112,6 +131,7 @@
 
 #prix-question {
   margin-top: 2em;
+  font-size: 1.2em;
 }
 
 #prix-reponse {
@@ -139,14 +159,21 @@
 }
 
 #prix-sub-container-1 {
-  width: 60%;
+  width: 52%;
   float: left;
   margin-bottom: 3em;
+}
+
+#autovista-img {
+  width: 38%;
+  margin-left: 3.5em;
+  margin-top: 2.5em;
 }
 
 .prix-sous-titre {
   font-weight: 600;
 }
+
 
 #prix-sub-container-2 {
   margin-top: 3em;
@@ -180,4 +207,53 @@
   background-color: white;
 }
 
+#achat-sub-container-1 {
+  width: 60%;
+  float: left;
+  margin-bottom: 3em;
+  margin-top: 4em;
+}
 
+#car-check-img {
+  width: 18%;
+  margin-left: 7em;
+  margin-top: 1em;
+}
+
+#lemonway-img {
+  width: 30%;
+  margin-right: 4.5em;
+  margin-left: 1.5em;
+  margin-top: -1em;
+}
+
+#achat-sub-container-2 {
+  width: 59%;
+  float: right;
+  margin-bottom: 4em;
+}
+
+#achat-sub-container-3 {
+  width: 60%;
+  float: left;
+  margin-bottom: 4em;
+}
+
+#contact-CCM {
+  margin-top: 8em;
+  background-color: white;
+  padding: 1.5em;
+  height: 20em;
+  text-align: center;
+  padding-top: 3em;
+  margin-bottom: 5em;
+}
+
+#call-us-title {
+  font-weight: 800;
+  font-size: 3.5em;
+}
+
+#call-us-number {
+  font-size: 2.8em;
+}
