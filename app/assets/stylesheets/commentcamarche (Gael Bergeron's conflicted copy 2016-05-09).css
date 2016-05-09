@@ -133,6 +133,7 @@
 
 #goodbye-car-img {
   width: 16%;
+  margin-left: 1em;
 }
 
 #goodbye-guy-img {
@@ -251,7 +252,7 @@
 
 #achat-sub-title {
   font-weight: 600;
-  font-size: 1.35em;
+  font-size: 1.15em;
   height: 4em;
 }
 
