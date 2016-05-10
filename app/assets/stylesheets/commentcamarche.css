@@ -34,7 +34,7 @@
 #vente-container {
   background-color: white;
   padding: 1.5em;
-  padding-bottom: 60em;
+  height: 98em;
 }
 
 #beau {
@@ -61,20 +61,20 @@
 .place-img {
   width: 7%;
   margin-left: 1.6em;
-  margin-top: 5.5em;
+  margin-top: 7.5em;
 }
 
 #vente-sub-container-1 {
   width: 65%;
   float: right;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 5em;
+  margin-bottom: 6em;
 }
 
 #vente-sub-container-2 {
   width: 48%;
   float: left;
-  margin-bottom: 5em;
+  margin-bottom: 7em;
 }
 
 .visibility {
@@ -107,7 +107,7 @@
 
 #relax-img {
   width: 16%;
-  margin-top: 25em;
+  margin-top: 29em;
   float: left;
   position: relative;
   margin-left: 6em;
@@ -123,13 +123,13 @@
   width: 60%;
   float: left;
   margin-bottom: 3em;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .goodbye {
   float: right;
   position: relative;
-  margin-top: 26em;
+  margin-top: 31em;
 }
 
 #goodbye-car-img {
@@ -163,11 +163,11 @@
   width: 55%;
   float: left;
   margin-bottom: 3em;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 #experveo-img {
-  margin-top: 5em;
+  margin-top: 7em;
   margin-left: 4em;
 }
 
@@ -175,7 +175,7 @@
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
-  height: 75em;
+  height: 80em;
 }
 
 .prix-titre {
@@ -196,15 +196,15 @@
 #avant {
   width: 45%;
   float: left;
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 8em;
 }
 
 #apres {
   width: 45%;
   float: right;
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 8em;
 }
 
 .prix-contenu {
@@ -229,11 +229,11 @@
 
 #comparaison-img {
   width: 50%;
-  margin-top: 4em;
+  margin-top: 7em;
 }
 
 #prix-sub-container-2 {
-  margin-top: 2em;
+  margin-top: 5em;
   width: 48%;
   float: right;
   margin-bottom: 3em;
@@ -243,7 +243,7 @@
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
-  height: 68em;
+  height: 75em;
 }
 
 #achat-info {
@@ -268,38 +268,40 @@
   width: 60%;
   float: left;
   margin-bottom: 3em;
-  margin-top: 4em;
+  margin-top: 7em;
 }
 
 #car-check-img {
   width: 16%;
   margin-left: 7em;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 #lemonway-img {
   width: 30%;
   margin-right: 4.5em;
   margin-left: 1.5em;
-  margin-top: -1em;
+  margin-top: 2em;
 }
 
 #achat-sub-container-2 {
   width: 59%;
   float: right;
   margin-bottom: 4em;
+  margin-top: 3em;
 }
 
 #achat-sub-container-3 {
   width: 60%;
   float: left;
   margin-bottom: 4em;
+  margin-top: 4em;
 }
 
 #mapfre-img {
   width: 30%;
   margin-left: 3.5em;
-  margin-top: 1em;
+  margin-top: 5em;
 }
 
 #contact-phone-CCM {
