@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  get 'apropos' => 'welcome#apropos'
+  get 'quisommesnous' => 'welcome#quisommesnous'
   get 'faq' => 'welcome#faq'
   get 'commentcamarche' => 'welcome#commentcamarche'
   get 'cgv' => 'welcome#cgv'

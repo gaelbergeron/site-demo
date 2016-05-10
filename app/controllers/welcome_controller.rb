@@ -6,7 +6,7 @@ class WelcomeController < ApplicationController
   def commentcamarche
   end
 
-  def apropos
+  def quisommesnous
   end
 
   def faq
