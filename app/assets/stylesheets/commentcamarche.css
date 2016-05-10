@@ -27,12 +27,14 @@
   text-align: center;
   font-size: 1.2em;
   border: 1px solid black;
+  border-radius: 15px;
+
 }
 
 #vente-container {
   background-color: white;
   padding: 1.5em;
-  padding-bottom: 58em;
+  padding-bottom: 60em;
 }
 
 #beau {
@@ -127,17 +129,16 @@
 .goodbye {
   float: right;
   position: relative;
-  margin-top: 28em;
-  /*width: 15%;*/
+  margin-top: 26em;
 }
 
 #goodbye-car-img {
-  width: 16%;
+  width: 19%;
 }
 
 #goodbye-guy-img {
-  width: 17%;
-  margin-right: 1em;
+  width: 12%;
+  margin-right: 2em;
 }
 
 #expertise-container {
@@ -174,7 +175,7 @@
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
-  height: 72em;
+  height: 75em;
 }
 
 .prix-titre {
@@ -226,10 +227,14 @@
   font-weight: 600;
 }
 
+#comparaison-img {
+  width: 50%;
+  margin-top: 4em;
+}
 
 #prix-sub-container-2 {
-  margin-top: 3em;
-  width: 60%;
+  margin-top: 2em;
+  width: 48%;
   float: right;
   margin-bottom: 3em;
 }
@@ -291,7 +296,13 @@
   margin-bottom: 4em;
 }
 
-#contact-CCM {
+#mapfre-img {
+  width: 30%;
+  margin-left: 3.5em;
+  margin-top: 1em;
+}
+
+#contact-phone-CCM {
   margin-top: 8em;
   background-color: white;
   padding: 1.5em;
