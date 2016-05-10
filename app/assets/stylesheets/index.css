@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a:visited {
   text-decoration: none;
   color: black;
@@ -76,13 +80,6 @@ a:hover {
   height: 14em;
 }
 
-footer {
-  background-color: #26272C;
-  width: 100%;
-  height: 8em;
-  position: relative;
-  bottom: 0;
-}
 
 @media only screen 
   and (min-device-width: 375px) 

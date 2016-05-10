@@ -314,11 +314,29 @@
   margin-bottom: 5em;
 }
 
-#call-us-title {
+#contact-mail-CCM {
+  background-color: white;
+  padding: 1.5em;
+  height: 20em;
+  text-align: center;
+  padding-top: 6em;
+  margin-bottom: 5em;
+}
+
+.contact-title-CCM {
   font-weight: 800;
   font-size: 3.5em;
 }
 
-#call-us-number {
+#contact-title-email {
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.contact-details {
   font-size: 2.8em;
+}
+
+#contact-email-details {
+  font-size: 2em;
 }
