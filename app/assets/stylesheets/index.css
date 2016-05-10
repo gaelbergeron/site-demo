@@ -28,7 +28,7 @@ a:hover {
   font-size: 1.3em;
 }
 
-#main-img {
+.main-img {
   width: 100%;
   z-index: 0;
 }
