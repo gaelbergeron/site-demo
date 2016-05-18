@@ -1,8 +1,13 @@
 <header>
   <%= link_to image_tag("logo-N7.png"), root_path, id: "logo" %>
+
+
+
   <ul class="menu align-right"> 
     <li><%= link_to 'Qui sommes nous ?', quisommesnous_path %></li>  
     <li><%= link_to 'FAQ', faq_path %></li>  
     <li><%= link_to 'Comment ça marche ?', commentcamarche_path %></li>
+    <li class="phone-number-header"><%= image_tag("phone-img.png", class:'phone-img' ) %>01 76 39 02 84 </li>
   </ul>
+
 </header>

@@ -1,0 +1,17 @@
+#logo {
+  font-size: 48px;
+  float: left;
+  width: 6em;
+  margin-left: 0.3em;
+}
+
+.phone-img {
+ width: 15%;
+ margin-right: 0.3em;
+}
+
+.phone-number-header {
+  width: 14%;
+  margin-top: 0.65em;
+  margin-right: 0.3em;
+}

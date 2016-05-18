@@ -25,13 +25,6 @@ header {
   height: 5em;
 }
 
-#logo {
-  font-size: 48px;
-  float: left;
-  width: 6em;
-  margin-left: 0.3em;
-}
-
 .menu {
   padding-top: 0.8em;
   font-size: 1.3em;
