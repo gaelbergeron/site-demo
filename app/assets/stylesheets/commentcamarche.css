@@ -106,11 +106,11 @@
 }
 
 .relax-img {
-  width: 16%;
-  margin-top: 28em;
+  width: 12em;
+  margin-top: 40em;
   float: left;
   position: absolute;
-  margin-left: 4em;
+  margin-left: -12em;
 }
 
 #vente-sub-container-3 {
@@ -127,17 +127,28 @@
 }
 
 .goodbye {
-  float: right;
-  position: relative;
-  margin-top: 9em;
+  margin-top: 32em;
+  overflow: hidden;
+  /*display:flex;*/
+  /*justify-content:flex-end;*/
+  /*align-items:center;*/
+  /*float: right;*/
+  margin-right: -1em;
+  vertical-align: top;
+}
+
+@-moz-document url-prefix() {
+    .goodbye {
+        margin-top: 9em;
+    }
 }
 
 #goodbye-car-img {
-  width: 19%;
+  width: 12em;
 }
 
 #goodbye-guy-img {
-  width: 12%;
+  width: 8em;
   margin-right: 2em;
 }
 

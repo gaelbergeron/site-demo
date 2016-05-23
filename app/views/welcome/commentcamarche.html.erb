@@ -21,7 +21,7 @@
 
     <p id="beau">C'est bien beau tout ça, mais...</p>
     <h2 id="ccm?">Comment ça marche ?</h2>
-    <p id="information">Tout d'abord, enregistrez votre voiture en nous indiquant quelques informations essentielles</p>
+    <p id="information">Tout d'abord, enregistrez votre voiture par email ou téléphone en nous indiquant quelques informations essentielles</p>
 
     <table id="car-info">
       <tr>
@@ -72,9 +72,10 @@
       <p class="sub-container-content">Il arrive que l’acheteur ait un doute au moment de l’essai, dans ce cas nous ramènerons la voiture chez vous, propre et avec le plein. Notre philosophie est d’offrir un service sans aucune pression d’achat. Promis, un autre acheteur ne sera pas loin.</p>
     </div>
 
-    <%= image_tag("goodbye-guy-img.png", id:'goodbye-guy-img', class: 'goodbye' ) %>
-    <%= image_tag("goodbye-car-img.png", id:'goodbye-car-img', class: 'goodbye' ) %>
-
+    <div class="goodbye">
+      <%= image_tag("goodbye-car-img.png", id:'goodbye-car-img' ) %>
+      <%= image_tag("goodbye-guy-img.png", id:'goodbye-guy-img' ) %>
+    </div>
 
   </div>
 
