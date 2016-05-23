@@ -12,18 +12,62 @@
 
   </div>
 
+
   <div id="container-2">
     <p>Nous avons imaginé un service pour vous simplifier à l'extrême la vente et l'achat de votre voiture d'occasion. Nationale 7 s'occupe de tout et vous assure de faire la meilleure transaction possible.</p>
   </div>
+  <%= link_to 'Découvrir le service', commentcamarche_path, class:'CCM-button', style: "color: white;" %>
 
-  <div id="home-CTA">
-    <div id="launch">
-      Lancement très prochainement !
+  <div class="four-benefits-banner">
+    <div class="benefit-element">
+      <%= image_tag("euro-img.png", class:'benefit-element-img' ) %>
+      <div class="sub-feature">
+        Le concessionaire sort de l'équation
+      </div>
+      <div class="sub-benefit">
+        Meilleur prix pour vendeurs et acheteurs
+      </div>
     </div>
 
-    <div id="email">
-    Pour des encouragements: &nbsp <b>bonjour@nationale7.co</b>
+    <div class="benefit-element">
+      <%= image_tag("car-check-black.png", class:'benefit-element-img' ) %>
+      <div class="sub-feature">
+        Inspection 75 points et garantie 6 mois
+      </div>
+      <div class="sub-benefit">
+        2 chiffres pour dormir sur ses 2 oreilles
+      </div>      
+    </div>
+
+    <div class="benefit-element">
+      <%= image_tag("heart-img.png", class:'benefit-element-img' ) %>
+      <div class="sub-feature">
+        Livraison et essai chez vous
+      </div>
+      <div class="sub-benefit">
+        Paiement au coup de coeur, seulement      
+      </div>
+    </div>
+
+    <div class="benefit-element">
+      <%= image_tag("lock-img.png", class:'benefit-element-img' ) %>
+      <div class="sub-feature">
+        Paperasse gérée et paiement sécurisé
+      </div>
+      <div class="sub-benefit">
+        Au revoir arnaques, bonjour sereinité 
+      </div>
     </div>
   </div>
+
+  <h2 class="partenaires-title">Nos partenaires</h2>
+  <div class="nos-partenaires-banner">
+    <%= image_tag("experveo.png", class: 'partenaires-img' ) %>
+    <%= image_tag("autovista.jpg", class: 'partenaires-img' ) %>
+    <%= image_tag("lemonway.png", class: 'partenaires-img' ) %>
+    <%= image_tag("bnp-img.png", class: 'partenaires-img' ) %>
+    <%= image_tag("mapfre-img.png", class: 'partenaires-img' ) %>
+  </div>
+
 
 </main>
