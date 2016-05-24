@@ -1,0 +1,48 @@
+#background-container-contact {
+  background-color: #F5F3F3;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#main-container-contact {
+  width: 60em;
+  margin: auto;
+  margin-top: 4em;
+}
+
+#contact-phone-contact {
+  margin-top: 4em;
+  background-color: white;
+  padding: 1.5em;
+  height: 20em;
+  text-align: center;
+  padding-top: 3em;
+  margin-bottom: 5em;
+}
+
+#contact-mail-contact {
+  background-color: white;
+  padding: 1.5em;
+  height: 20em;
+  text-align: center;
+  padding-top: 6em;
+  margin-bottom: 4em;
+}
+
+.contact-title-contact {
+  font-weight: 800;
+  font-size: 3.5em;
+}
+
+#contact-title-email {
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.contact-details {
+  font-size: 2.8em;
+}
+
+#contact-email-details {
+  font-size: 2em;
+}

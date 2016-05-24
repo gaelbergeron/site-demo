@@ -12,11 +12,13 @@ class WelcomeController < ApplicationController
   def faq
   end
 
-  def cgv
+  def conditionsgenerales
   end
 
   def mentionslegales
   end
 
+  def contact
+  end
 
 end

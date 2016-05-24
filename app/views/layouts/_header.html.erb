@@ -4,10 +4,10 @@
 
 
   <ul class="menu align-right"> 
-    <li><%= link_to 'Qui sommes nous ?', quisommesnous_path %></li>  
-    <li><%= link_to 'FAQ', faq_path %></li>  
-    <li><%= link_to 'Comment ça marche ?', commentcamarche_path %></li>
-    <li class="phone-number-header"><%= image_tag("phone-img.png", class:'phone-img' ) %>01 76 39 02 84 </li>
+    <li><%= link_to 'Qui sommes nous ?', quisommesnous_path, class: "menu-link sliding-middle-out" %></li>  
+    <li><%= link_to 'FAQ', faq_path, class: "menu-link sliding-middle-out" %></li>  
+    <li><%= link_to 'Comment ça marche ?', commentcamarche_path, class: "menu-link sliding-middle-out" %></li>
+    <li class="phone-number-header"><%= image_tag("phone-img.png", class:'phone-img' ) %><a href="tel:0176390284" id="phone-number-link">01 76 39 02 84</a></li>
   </ul>
 
 </header>

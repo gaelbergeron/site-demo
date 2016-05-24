@@ -1,3 +1,27 @@
+header {
+  height: 5em;
+}
+
+.menu {
+  padding-top: 0.8em;
+  font-size: 1.3em;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
 #logo {
   font-size: 48px;
   float: left;
@@ -14,4 +38,29 @@
 .phone-number-header {
   margin-top: 0.65em;
   margin-right: 0.5em;
+}
+
+#phone-number-link {
+  display: inline;
+  padding: 0;
+}
+
+.sliding-middle-out {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: 2px;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+  width: 100%;
+  background: #448BC7;
 }

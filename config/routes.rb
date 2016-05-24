@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get 'quisommesnous' => 'welcome#quisommesnous'
   get 'faq' => 'welcome#faq'
   get 'commentcamarche' => 'welcome#commentcamarche'
-  get 'cgv' => 'welcome#cgv'
+  get 'conditionsgenerales' => 'welcome#conditionsgenerales'
+  get 'contact' => 'welcome#contact'
   get 'mentionslegales' => 'welcome#mentionslegales'
   
   # The priority is based upon order of creation: first created -> highest priority.
