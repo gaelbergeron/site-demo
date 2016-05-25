@@ -1,5 +1,5 @@
 header {
-  height: 5em;
+  height: 6em;
 }
 
 .menu {
@@ -27,6 +27,25 @@ header {
   float: left;
   width: 6em;
   margin-left: 0.3em;
+}
+
+
+.title-bar {
+  justify-content: center;
+  display: flex;
+}
+
+.top-bar {
+  display: -webkit-inline-box;
+  position: relative;
+  z-index: 1;
+  height: 20em;
+}
+
+
+.menu-icon {
+  margin-top: 1.5em;
+  width: 1.6em;
 }
 
 .phone-img {
@@ -63,4 +82,20 @@ header {
 .sliding-middle-out:hover:after {
   width: 100%;
   background: #448BC7;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  .menu-link {
+    width: 15em;
+  }
+
+  .menu.align-right > li {
+  float: left;
+  font-size: 1.3em;
+}
+
 }

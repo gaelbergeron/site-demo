@@ -19,17 +19,21 @@ a:hover {
   color: #009bff;
 }
 
-.main-img-desktop {
-  width: 100%;
-  z-index: 0;
+.main-img-tagline-container {
+  height: 30em;
+  background-image: url(https://s3.eu-central-1.amazonaws.com/projetvroomphotos/homepage-photo-cropped.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: inherit;
 }
 
-#container-1 {
-  width: 100%;
-  height: 12em;
+.main-tagline-background {
   background: rgba(255,255,255,0.5);
-  position: absolute;
-  top: 8em;
+  width: 100%;
+  position: relative;
+  top: 3em;
+  height: 10em;
 }
 
 #main-tagline {
@@ -37,8 +41,10 @@ a:hover {
   opacity: 1;
   font-size: 2em;
   font-weight: 600;
-  margin: 1.5em auto 0em auto;
+  margin: 0 auto;
   width: 28em;
+  position: relative;
+  top: 1em;
 }
 
 #CCM-button {
@@ -157,9 +163,8 @@ a:hover {
   and (-webkit-min-device-pixel-ratio: 2) { 
   
   #main-tagline {
-    margin: 0.5em auto 0em auto;
-    font-size: 1.5em;
-    width: 20em;
+    font-size: 1.4em;
+    width: 90%;
   }
 
   #container-2 {
@@ -167,9 +172,10 @@ a:hover {
     width: 30em;
   }
 
+
   .main-img {
   width: 200%;
   /*z-index: 0;*/
-}
+  }
 
 }
