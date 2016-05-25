@@ -82,3 +82,29 @@ footer {
   text-align: center;
   padding-top: 16em;
 }
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+  footer {
+    height: 40em;
+  }
+
+  .footer-list {
+    width: 7.4em;
+  }
+
+  .CCM-footer {
+    width: 8em;
+  }
+
+  #description-service {
+    padding: 0 5% 1em 5%;
+    width: 100%;
+  }
+
+  #copyright {
+    padding-top: 27em;
+  }
+
+}
+

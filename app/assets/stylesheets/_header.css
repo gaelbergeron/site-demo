@@ -96,6 +96,7 @@ header {
     position: relative;
     z-index: 1;
     height: 20em;
+    float: none;
   }
 
   .menu.align-right > li {

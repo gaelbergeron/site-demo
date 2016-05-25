@@ -60,7 +60,7 @@ a:hover {
   font-weight: 600;
   opacity: 1;
   border-radius: 5px;
-  width: 10em;
+  width: 15.2em;
   color: white;
 }
 
@@ -94,7 +94,7 @@ a:hover {
 
 .four-benefits-banner {
   width: 70em;
-  height: 16em;
+  height: 21em;
   margin: auto;
   margin-top: 5em;
 }
@@ -148,7 +148,6 @@ a:hover {
   font-size: 2.2em;
   font-weight: 600;
   text-align: center;
-  margin-top: 3em; 
 }
 
 .partenaires-img {
@@ -171,40 +170,34 @@ a:hover {
 
   .four-benefits-banner {
     width: 100%;
+    height: 50em;
   }
 
   .benefit-element {
     width: 46%;
-    margin: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
   .partenaires-title {
-    margin-top: 9em;
-    font-size: 4em;
+    font-size: 3.3em;
   }
 
   .nos-partenaires-banner {
     display: table;
     height: 12em;
     margin-bottom: 6em;
-  }
-
-  .partenaires-img {
-    margin: 3em 25% 3em 25%;
-    width: 50%;
-  }
-
-  footer {
-    height: 27em;
-  }
-
-  #description-service {
-    padding: 0 5% 1em 5%;
     width: 100%;
   }
 
-  #copyright {
-    padding-top: 27em;
+  .partenaires-img {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
 }
