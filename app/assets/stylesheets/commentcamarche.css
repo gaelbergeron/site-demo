@@ -235,7 +235,7 @@
   margin-bottom: 3em;
 }
 
-#autovista-img {
+.autovista-img {
   width: 38%;
   margin-left: 3.5em;
   margin-top: 2.5em;
@@ -245,19 +245,19 @@
   font-weight: 600;
 }
 
-#comparaison-img {
+.comparaison-img {
   width: 50%;
   margin-top: 7em;
 }
 
-#prix-sub-container-2 {
+.prix-sub-container-2 {
   margin-top: 5em;
   width: 48%;
   float: right;
   margin-bottom: 3em;
 }
 
-#achat-container {
+.achat-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
@@ -282,41 +282,40 @@
   background-color: white;
 }
 
-#achat-sub-container-1 {
+.achat-sub-container-1 {
   width: 60%;
   float: left;
   margin-bottom: 3em;
   margin-top: 7em;
 }
 
-#car-check-img {
+.car-check-img {
   width: 16%;
   margin-left: 7em;
   margin-top: 4em;
 }
 
-#lemonway-img {
+.lemonway-img {
   width: 30%;
   margin-right: 4.5em;
   margin-left: 1.5em;
   margin-top: 2em;
 }
 
-#achat-sub-container-2 {
+.achat-sub-container-2 {
   width: 59%;
   float: right;
   margin-bottom: 4em;
-  margin-top: 3em;
 }
 
-#achat-sub-container-3 {
+.achat-sub-container-3 {
   width: 60%;
   float: left;
   margin-bottom: 4em;
   margin-top: 4em;
 }
 
-#mapfre-img {
+.mapfre-img {
   width: 30%;
   margin-left: 3.5em;
   margin-top: 5em;
@@ -326,7 +325,7 @@
   margin-top: 8em;
   background-color: white;
   padding: 1.5em;
-  height: 20em;
+  height: 100%;
   text-align: center;
   padding-top: 3em;
   margin-bottom: 5em;
@@ -335,9 +334,9 @@
 #contact-mail-CCM {
   background-color: white;
   padding: 1.5em;
-  height: 20em;
+  height: 100%;
   text-align: center;
-  padding-top: 6em;
+  padding-top: 3em;
   margin-bottom: 5em;
 }
 
@@ -348,14 +347,14 @@
 
 #contact-title-email {
   font-weight: 800;
-  font-size: 2.5em;
+  font-size: 2.7em;
 }
 
 .contact-details {
   font-size: 2.8em;
 }
 
-#contact-email-details {
+.contact-email-details {
   font-size: 2em;
 }
 
@@ -512,7 +511,7 @@
   }
 
   .prix-container {
-    height: 100%;
+    height: 137em;
   }
 
   .prix-titre {
@@ -532,6 +531,7 @@
 
   .apres {
     width: 100%;
+    margin-top: 3em;
   }
 
   .prix-sub-container-1 {
@@ -539,4 +539,70 @@
     float: none;
   }
 
+  .autovista-img {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .prix-sub-container-2 {
+    width: 100%;
+    float: none;
+  }
+
+  .comparaison-img {
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    top: 34em;
+  }
+
+  .achat-container {
+    height: 100%;
+  }
+
+  .achat-main-title {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+  }
+
+  .achat-sub-container-1 {
+    width: 100%;
+    float: none;
+    margin-top: 6em;
+  }
+
+  .car-check-img {
+    width: 45%;
+    margin-left: 5em;
+    margin-top: 0;
+  }
+
+  .achat-sub-container-2 {
+    width: 100%;
+    float: none;
+  }
+
+  .lemonway-img {
+    width: 76%;
+    position: relative;
+    margin: 0 auto;
+    top: 27em;
+    margin-left: 9%;
+  }
+
+  .achat-sub-container-3 {
+    width: 100%;
+    margin-top: 16em;
+  }
+
+  .mapfre-img {
+    width: 90%;
+    margin-top: -2em;
+    margin-left: 6%;
+  }
+
+  .contact-email-details {
+    font-size: 1.7em;
+  }
 }
