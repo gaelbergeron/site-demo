@@ -421,6 +421,7 @@
 
   .vente-container {
     height: 100%;
+    padding-bottom: 9em;
   }
 
   .vente-sub-container-1 {
@@ -451,18 +452,18 @@
     position: relative;
     bottom: 41em;
     left: 14em;
-    width: 9em;
+    width: 10em;
   }
 
   .vente-sub-container-4 {
     float: none;
     width: 100%;
-    margin-top: 17em;
+    margin-top: 12em;
   }
 
   .goodbye {
-    width: 100%;
-    margin-top: -40em;
+    width: 80%;
+    margin-top: -2em;
   }
 
   .goodbye-car-img {
@@ -475,6 +476,7 @@
 
   .expertise-container {
     height: 100%;
+    padding-bottom: 5em;
   }
 
   .expertise {
@@ -511,7 +513,7 @@
   }
 
   .prix-container {
-    height: 137em;
+    height: 138em;
   }
 
   .prix-titre {
@@ -548,13 +550,14 @@
   .prix-sub-container-2 {
     width: 100%;
     float: none;
+    margin-top: 2em;
   }
 
   .comparaison-img {
     width: 100%;
     position: relative;
     margin-top: 0;
-    top: 34em;
+    top: 36em;
   }
 
   .achat-container {
@@ -587,7 +590,7 @@
     width: 76%;
     position: relative;
     margin: 0 auto;
-    top: 27em;
+    top: 26em;
     margin-left: 9%;
   }
 
@@ -598,7 +601,7 @@
 
   .mapfre-img {
     width: 90%;
-    margin-top: -2em;
+    margin-top: -4em;
     margin-left: 6%;
   }
 

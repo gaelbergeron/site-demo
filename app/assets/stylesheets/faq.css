@@ -4,7 +4,7 @@
   padding-bottom: 1em;
 }
 
-#main-container-FAQ {
+.main-container-FAQ {
   width: 100%;
   margin: auto;
   margin-top: 4em;
@@ -25,6 +25,10 @@
   line-height: 1.4em;
 }
 
+.question-FAQ{
+  padding-right: 30em;
+}
+
 #question-n7 {
   padding-top: 5em;
   margin: 0 auto;
@@ -32,13 +36,13 @@
   padding-bottom: 5em;
 }
 
-#vendre-container {
+.vendre-container {
   background-color: white;
   padding: 1.5em;
   height: 100%;
 }
 
-#acheter-container {
+.acheter-container {
   margin-top: 8em;
   background-color: white;
   padding: 1.5em;
@@ -89,3 +93,24 @@
 #call-us-FAQ {
   font-size: 1.5em;
 }
+
+@media (min-width: 320px) 
+  and (max-width: 667px) {
+
+  .vendre-container {
+    width: 100%;
+  }
+
+  .acheter-container {
+    width: 100%;
+  }
+
+  .main-container-FAQ {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+}
+
+
+
