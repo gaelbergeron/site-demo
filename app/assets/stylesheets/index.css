@@ -157,10 +157,7 @@ a:hover {
 }
 
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media (min-width: 375px) and (max-width: 667px) { 
   
   #main-tagline {
     font-size: 1.4em;
@@ -168,14 +165,46 @@ a:hover {
   }
 
   #container-2 {
-    font-size: 1.6em;
-    width: 30em;
+    font-size: 1.1em;
+    width: 90%;
   }
 
+  .four-benefits-banner {
+    width: 100%;
+  }
 
-  .main-img {
-  width: 200%;
-  /*z-index: 0;*/
+  .benefit-element {
+    width: 46%;
+    margin: 2%;
+  }
+
+  .partenaires-title {
+    margin-top: 9em;
+    font-size: 4em;
+  }
+
+  .nos-partenaires-banner {
+    display: table;
+    height: 12em;
+    margin-bottom: 6em;
+  }
+
+  .partenaires-img {
+    margin: 3em 25% 3em 25%;
+    width: 50%;
+  }
+
+  footer {
+    height: 27em;
+  }
+
+  #description-service {
+    padding: 0 5% 1em 5%;
+    width: 100%;
+  }
+
+  #copyright {
+    padding-top: 27em;
   }
 
 }
