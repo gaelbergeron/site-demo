@@ -30,19 +30,6 @@ header {
 }
 
 
-.title-bar {
-  justify-content: center;
-  display: flex;
-}
-
-.top-bar {
-  display: -webkit-inline-box;
-  position: relative;
-  z-index: 1;
-  height: 20em;
-}
-
-
 .menu-icon {
   margin-top: 1.5em;
   width: 1.6em;
@@ -93,9 +80,21 @@ header {
     width: 15em;
   }
 
+  .title-bar {
+    justify-content: center;
+    display: flex;
+  }
+
+  .top-bar {
+    display: -webkit-inline-box;
+    position: relative;
+    z-index: 1;
+    height: 20em;
+  }
+
   .menu.align-right > li {
-  float: left;
-  font-size: 1.3em;
-}
+    float: left;
+    font-size: 1.3em;
+  }
 
 }
