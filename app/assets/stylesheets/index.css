@@ -156,7 +156,7 @@ a:hover {
 }
 
 
-@media (min-width: 375px) and (max-width: 667px) { 
+@media (min-width: 320px) and (max-width: 667px) { 
   
   #main-tagline {
     font-size: 1.4em;

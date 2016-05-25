@@ -1,35 +1,35 @@
 <%= image_tag("main-img-narrow.jpg", class:'main-img' ) %>
 <div id="background-container-CCM">
 
-<div id="main-container-CCM">
+<div class="main-container-CCM">
 
   <div id="ccm-container-1">
-    <h1 id="questions">Questions ?</h1>
-    <p id="endroit">Vous êtes au bon endroit !</p>
+    <h1 class="questions">Questions ?</h1>
+    <p class="endroit">Vous êtes au bon endroit !</p>
   </div>
 
   <nav data-magellan>
-    <ul class="horizontal menu expanded">
-      <li class="top-menu"><a href="#vente-container">Vente</a></li>
-      <li class="top-menu"><a href="#expertise-container">Expertise</a></li>
-      <li class="top-menu"><a href="#prix-container">Prix</a></li>
-      <li class="top-menu"><a href="#achat-container">Achat</a></li>
+    <ul class="horizontal menu ">
+      <li class="top-menu"><a href="#vente-container" class="top-menu-link">Vente</a></li>
+      <li class="top-menu"><a href="#expertise-container" class="top-menu-link">Expertise</a></li>
+      <li class="top-menu"><a href="#prix-container" class="top-menu-link">Prix</a></li>
+      <li class="top-menu"><a href="#achat-container" class="top-menu-link">Achat</a></li>
     </ul>
   </nav>
 
-  <div id="vente-container">
+  <div class="vente-container">
 
-    <p id="beau">C'est bien beau tout ça, mais...</p>
-    <h2 id="ccm?">Comment ça marche ?</h2>
-    <p id="information">Tout d'abord, enregistrez votre voiture par email ou téléphone en nous indiquant quelques informations essentielles</p>
+    <p class="beau">C'est bien beau tout ça, mais...</p>
+    <h2 class="ccm-question">Comment ça marche ?</h2>
+    <p class="information">Tout d'abord, enregistrez votre voiture par email ou téléphone en nous indiquant quelques informations essentielles</p>
 
-    <table id="car-info">
+    <table class="car-info">
       <tr>
-        <td>Marque</td>
-        <td>Modèle</td>
-        <td>Année</td>
-        <td>Finition</td>
-        <td>Kilométrage</td>
+        <td class="td-car-info">Marque</td>
+        <td class="td-car-info">Modèle</td>
+        <td class="td-car-info">Année</td>
+        <td class="td-car-info">Finition</td>
+        <td class="td-car-info">Kilométrage</td>
       </tr>
     </table>
 
@@ -40,32 +40,32 @@
       <%= image_tag("parking-img.png", class:'place-img' ) %>
 
 
-    <div id="vente-sub-container-1">
+    <div class="vente-sub-container-1">
       <h2 class="sub-container-title">Chez vous, à vos bureaux, où bon vous semble</h2> 
       <p class="sub-container-content">Un de nos experts se déplacera pour compléter l’expertise de votre bijou. Aucune voiture n’est mise en vente sans obtenir la certification Nationale 7.</p>
       <p class="sub-container-content">Nous prendrons également de magnifiques photos pour mettre en valeur et représenter de façon très détaillée votre véhicule, toujours 100% gratuit.</p>
     </div>
 
-    <div id="vente-sub-container-2">
+    <div class="vente-sub-container-2">
       <h2 class="sub-container-title">Une visibilité maximale</h2> 
       <p class="sub-container-content">Une fois les vérifications complétées nous mettons votre annonce en ligne sur notre site, ainsi que sur les plus grandes plateformes françaises pour une visibilité maximale: Le Bon Coin, L’argus et La Centrale.</p>
       <p class="sub-container-content">Nous vous demanderons même une petite description de la voiture dans vos propres mots: pourquoi vous la vendez, les aventures, bons moments et souvenirs que vous avez vécu avec. Les voitures ont des personnalités, il faut les mettre en avant !</p>
     </div>
     
-    <div id="logo-sites">
+    <div class="logo-sites">
       <%= image_tag("leboncoin-img.png", id:'leboncoin-img', class: 'visibility' ) %>
       <%= image_tag("paruvendu-img.png", id:'paruvendu-img', class: 'visibility' ) %> 
       <%= image_tag("largus-img.png", id:'largus-img', class: 'visibility' ) %>
       <%= image_tag("lacentrale-img.png", id:'lacentrale-img', class: 'visibility' ) %>
     </div>
       <%= image_tag("relax-img.png", class: 'relax-img' ) %>
-    <div id="vente-sub-container-3">
+    <div class="vente-sub-container-3">
       <h2 class="sub-container-title">On s’occupe de tout!</h2> 
       <p class="sub-container-content">Gérer les appels, répondre aux questions: vous n’avez pas à lever un petit doigt, nous nous occupons de tout ! Continuez à conduire le temps que nous trouvions un acheteur.</p>
       <p class="sub-container-content">Soyez sans crainte, avec un tel niveau d’information et de visibilité, nos belles autos se vendent très vite.</p>
     </div>
 
-    <div id="vente-sub-container-4">
+    <div class="vente-sub-container-4">
       <h2 class="sub-container-title">C’est l’heure de dire au-revoir</h2> 
       <p class="sub-container-content">Dès qu’un acheteur se manifeste nous venons prendre la voiture chez vous, en prime nous lui refaisons une petite beauté avant de la livrer chez l’acheteur.</p>
       <p class="sub-container-content">Nous nous occupons bien sûr de gérer le paiement, vous gardez le contrôle de votre voiture tant que le transfert n’est pas sécurisé. Nos partenaires Lemon Way et BNP Paribas travaillent avec nous pour vous garantir une complète tranquillité d’esprit.</p>
@@ -73,56 +73,55 @@
     </div>
 
     <div class="goodbye">
-      <%= image_tag("goodbye-car-img.png", id:'goodbye-car-img' ) %>
-      <%= image_tag("goodbye-guy-img.png", id:'goodbye-guy-img' ) %>
+      <%= image_tag("goodbye-car-img.png", class:'goodbye-car-img' ) %>
+      <%= image_tag("goodbye-guy-img.png", class:'goodbye-guy-img' ) %>
     </div>
 
   </div>
 
-  <div id="expertise-container">
+  <div class="expertise-container">
     
-    <p id="expertise">L'expertise</p>
-    <h2 id="quid?">Qu'est-ce que c'est ?</h2>
+    <p class="expertise">L'expertise</p>
+    <h2 class="expert-question">Qu'est-ce que c'est ?</h2>
     <p id="rituel">Rituel de passage pour toutes nos voitures, il s’agit d'une heure au cours de laquelle notre expert se déplace chez vous pour inspecter titine dans ses moindres recoins. Notre expert vérifie:</p>
 
-    <table id="expertise-info">
-      <tr>
-        <td>75 points</td>
-        <td>Carrosserie et intérieur</td>
-        <td>Mécanique et chassis</td>
-        <td>Historique et entretien</td>
-        <td>Test de conduite</td>
-      </tr>
-    </table>
+    <div class="expertise-info">
+      <div class="expertise-detail">75 points</div>
+      <div class="expertise-detail">Carrosserie et intérieur</div>
+      <div class="expertise-detail">Mécanique et chassis</div>
+      <div class="expertise-detail">Historique et entretien</div>
+      <div class="expertise-detail">Test de conduite</div>
+    </div>
 
-    <p id="assurance">Rien n’échappe à nos experts, notre certification vous permet d’y aller les yeux fermés (assurez-vous de les rouvrir pour prendre le volant).</p>
+    <p class="assurance">Rien n’échappe à nos experts, notre certification vous permet d’y aller les yeux fermés (assurez-vous de les rouvrir pour prendre le volant).</p>
 
-    <div id="expertise-sub-container-1">
+    <div class="expertise-sub-container-1">
       <h2 class="sub-container-title">Qui sont ces experts ?</h2> 
       <p class="sub-container-content">Notre partenaire Experveo, filiale de BCA Expertise, un leader du domaine. Avec un réseau de 600 experts agréés par le Ministère de l'intérieur, ils peuvent intervenir chez vous en moins de 48h. Si tout est conforme, la qualité de votre voiture est certifiée et devient une auto Nationale 7 !</p>
     </div>
 
-    <%= image_tag("experveo.png", id:'experveo-img' ) %>
+    <%= image_tag("experveo.png", class:'experveo-img' ) %>
 
 
   </div>
 
-  <div id="prix-container">
+  <div class="prix-container">
+  
     <h2 class="prix-titre">Les vendeurs en obtiennent plus.</h2>
     <h2 class="prix-titre">Les acheteurs paient moins.</h2>
-    <p id="prix-question">D’où vient ce miracle automobile ?</p>
+    <p class="prix-question">D’où vient ce miracle automobile ?</p>
     <p id="prix-reponse">Nous connectons les particuliers acheteurs et vendeurs, de façon organisée, efficace et sécurisée.</p>
-    <div id="avant">
+    <div class="avant">
       <p class="prix-sous-titre">Avant, 2 possibilités :</p>
       <p class="prix-contenu">-Éplucher les annonces pendant des heures, faire semblant d’inspecter la voiture puis négocier son prix sans jamais être sûr de faire une bonne affaire.</p>
       <p class="prix-contenu">-Écumer les concessionnaires et accepter leur marge de 30% pour être sûr d’acheter une auto fiable.</p>
     </div>
-    <div id="apres">
+    <div class="apres">
       <p class="prix-sous-titre">Aujourd’hui :</p>
       <p class="prix-contenu">Nationale 7 propose le meilleur des deux mondes en ajoutant des services professionnels entre particuliers, sans les marges du concessionaire.</p>
       <p class="prix-contenu">Nous n’avons pas d’entrepôts, pas de showrooms, ni commerciaux. Ces économies vous reviennent directement ! Vous pouvez maintenant réfléchir à comment vous allez dépenser ces euros économisés :-)</p>
     </div>
-    <div id="prix-sub-container-1">
+    <div class="prix-sub-container-1">
       <h2 class="sub-container-title">Comment fixons-nous le prix de vente?</h2> 
       <p class="sub-container-content">Nos prix de vente proviennent de la base de données Autovista qui met constamment à jour la valeur marchande des véhicules d’occasion en fonction de l’offre et de la demande. Autovista est le leader européen auprès des professionnels de l'automobile.</p>
       <p class="sub-container-content">Ce prix est ensuite ajusté en fonction du kilométrage et de l’état général du véhicule validés lors de l’inspection. Basé sur des critères objectifs, sans favoritisme, nos prix sont non négociables</p>

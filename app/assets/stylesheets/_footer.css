@@ -83,7 +83,7 @@ footer {
   padding-top: 16em;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 320px) and (max-width: 667px) {
 
   footer {
     height: 40em;

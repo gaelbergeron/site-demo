@@ -79,9 +79,13 @@ header {
   background: #448BC7;
 }
 
-@media (min-width: 375px) 
+@media (min-width: 320px) 
   and (max-width: 667px) 
   { 
+
+  #logo {
+    width: 5em;
+  }
 
   .menu-link {
     width: 15em;

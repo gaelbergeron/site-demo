@@ -4,7 +4,7 @@
   padding-bottom: 1em;
 }
 
-#main-container-CCM {
+.main-container-CCM {
   width: 60em;
   margin: auto;
   margin-top: 4em;
@@ -14,7 +14,7 @@
   font-size: 5em;
 }
 
-#endroit {
+.endroit {
   font-size: 3em;
 }
 
@@ -28,20 +28,20 @@
   font-size: 1.2em;
   border: 1px solid black;
   border-radius: 15px;
-
+  width: 10em;
 }
 
-#vente-container {
+.vente-container {
   background-color: white;
   padding: 1.5em;
   height: 98em;
 }
 
-#beau {
+.beau {
   font-size: 1.3em;
 }
 
-#car-info {
+.car-info {
   text-align: center;
   font-size: 1.5em;
   width: 80%;
@@ -61,17 +61,17 @@
 .place-img {
   width: 7%;
   margin-left: 1.6em;
-  margin-top: 7.5em;
+  margin-top: 6.5em;
 }
 
-#vente-sub-container-1 {
+.vente-sub-container-1 {
   width: 65%;
   float: right;
   margin-top: 5em;
   margin-bottom: 6em;
 }
 
-#vente-sub-container-2 {
+.vente-sub-container-2 {
   width: 48%;
   float: left;
   margin-bottom: 7em;
@@ -82,7 +82,7 @@
   margin-top: 3.2em;
 }
 
-#logo-sites {
+.logo-sites {
   width: 47%;
   float: right;
 }
@@ -113,13 +113,13 @@
   margin-left: -12em;
 }
 
-#vente-sub-container-3 {
+.vente-sub-container-3 {
   width: 60%;
   float: right;
   margin-bottom: 3em;
 }
 
-#vente-sub-container-4 {
+.vente-sub-container-4 {
   width: 60%;
   float: left;
   margin-bottom: 3em;
@@ -128,13 +128,13 @@
 
 .goodbye {
   margin-top: 32em;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*display:flex;*/
   /*justify-content:flex-end;*/
   /*align-items:center;*/
-  /*float: right;*/
-  margin-right: -1em;
-  vertical-align: top;
+  float: right;
+  /*margin-right: -1em;*/
+  /*vertical-align: top;*/
 }
 
 @-moz-document url-prefix() {
@@ -143,46 +143,53 @@
     }
 }
 
-#goodbye-car-img {
+.goodbye-car-img {
   width: 12em;
 }
 
-#goodbye-guy-img {
+.goodbye-guy-img {
   width: 8em;
   margin-right: 2em;
 }
 
-#expertise-container {
+.expertise-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
   height: 38em;
 }
 
-#expertise {
+.expert-question {
   font-size: 1.3em;
 }
 
-#expertise-info {
-  text-align: center;
-  font-size: 1.2em;
-  width: 90%;
-  margin: 0em auto 0.7em auto;
+.expertise-info {
+  width: 100%;
 }
 
-#expertise-sub-container-1 {
+.expertise-detail {
+  width: 20%;
+  border: 1px solid #ededed;
+  margin-bottom: 1em;
+  float: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.expertise-sub-container-1 {
   width: 55%;
   float: left;
   margin-bottom: 3em;
   margin-top: 4em;
 }
 
-#experveo-img {
+.experveo-img {
   margin-top: 7em;
   margin-left: 4em;
 }
 
-#prix-container {
+.prix-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
@@ -193,7 +200,7 @@
   margin-bottom: -0.2em;
 }
 
-#prix-question {
+.prix-question {
   margin-top: 2em;
   font-size: 1.2em;
 }
@@ -204,14 +211,14 @@
   font-weight: 600;
 }
 
-#avant {
+.avant {
   width: 45%;
   float: left;
   margin-top: 5em;
   margin-bottom: 8em;
 }
 
-#apres {
+.apres {
   width: 45%;
   float: right;
   margin-top: 5em;
@@ -222,7 +229,7 @@
   line-height: 20px;
 }
 
-#prix-sub-container-1 {
+.prix-sub-container-1 {
   width: 52%;
   float: left;
   margin-bottom: 3em;
@@ -350,4 +357,186 @@
 
 #contact-email-details {
   font-size: 2em;
+}
+
+@media (min-width: 320px) 
+  and (max-width: 667px) 
+  { 
+
+  .top-menu {
+    width: 10em;
+    font-size: 1em;
+  }
+
+  .menu {
+    font-size: 1.1em;
+  }
+
+  .top-menu-link {
+    padding: 5px;
+  }
+
+  .information {
+    margin-top: 2em;
+  }
+
+  .main-container-CCM {
+    width: 100%;
+  }
+
+  .questions {
+    font-size: 3.4em;
+    margin-left: 0.2em;
+  }
+
+  .endroit {
+    font-size: 1.3em;
+    margin-left: 0.7em;
+  }
+
+  .beau {
+    font-size: 1.2em;
+  }
+
+  .ccm-question {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+  }
+
+  .car-info {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: -10px; 
+  }
+
+  .td-car-info {
+    padding: 3px;
+  }
+
+
+  .place-img {
+    width: 20%;
+    margin-left: 1.6em;
+    margin-top: 6.5em;
+  }
+
+  .vente-container {
+    height: 100%;
+  }
+
+  .vente-sub-container-1 {
+    width: 100%;
+    float: right;
+    margin-top: 4em;
+    margin-bottom: 6em;
+  }
+
+  .vente-sub-container-2 {
+    width: 100%;
+    float: none;
+    margin-top: 38em;
+  }
+
+  .logo-sites {
+    width: 100%;
+    position: relative;
+    bottom: 38.5em;
+  }
+
+  .vente-sub-container-3 {
+    width: 100%;
+    float: none;
+  }
+
+  .relax-img {
+    position: relative;
+    bottom: 41em;
+    left: 14em;
+    width: 9em;
+  }
+
+  .vente-sub-container-4 {
+    float: none;
+    width: 100%;
+    margin-top: 17em;
+  }
+
+  .goodbye {
+    width: 100%;
+    margin-top: -40em;
+  }
+
+  .goodbye-car-img {
+    width: 50%;
+  }
+
+  .goodbye-guy-img {
+    width: 30%;    
+  }
+
+  .expertise-container {
+    height: 100%;
+  }
+
+  .expertise {
+    font-size: 1.2em;
+  }
+
+  .expert-question {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+  }
+
+  .expertise-detail {
+    width: 95%;
+    margin-bottom: -1px;
+    float: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .assurance {
+    margin-top: 20.5em;
+  }
+
+  .expertise-sub-container-1 {
+    width: 100%;
+    float: none;
+  }
+
+  .experveo-img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .prix-container {
+    height: 100%;
+  }
+
+  .prix-titre {
+    font-size: 1.2em; 
+  }
+
+  .prix-question {
+    margin-top: 2em;
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+
+  .avant {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .apres {
+    width: 100%;
+  }
+
+  .prix-sub-container-1 {
+    width: 100%;
+    float: none;
+  }
+
 }
