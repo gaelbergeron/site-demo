@@ -159,13 +159,17 @@ a:hover {
 @media (min-width: 320px) and (max-width: 667px) { 
   
   #main-tagline {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 90%;
   }
 
   #container-2 {
     font-size: 1.1em;
     width: 90%;
+  }
+
+  #CCM-button {
+    font-size: 1.2em;
   }
 
   .four-benefits-banner {
