@@ -4,7 +4,7 @@
   padding-bottom: 1em;
 }
 
-#main-container-QSN {
+.main-container-QSN {
   width: 100%;
   margin: auto;
   margin-top: 1em;
@@ -38,4 +38,16 @@
 
 #signature-N7 {
   margin-top: 2em;
+}
+
+@media (min-width: 320px) 
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  .main-container-QSN {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
 }
