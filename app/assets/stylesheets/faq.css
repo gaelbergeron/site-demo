@@ -95,7 +95,8 @@
 }
 
 @media (min-width: 320px) 
-  and (max-width: 667px) {
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 
   .vendre-container {
     width: 100%;

@@ -156,7 +156,9 @@ a:hover {
 }
 
 
-@media (min-width: 320px) and (max-width: 667px) { 
+@media (min-width: 320px) 
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) { 
   
   #main-tagline {
     font-size: 1.3em;

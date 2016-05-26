@@ -31,7 +31,7 @@
   width: 10em;
 }
 
-.vente-container {
+#vente-container {
   background-color: white;
   padding: 1.5em;
   height: 98em;
@@ -42,11 +42,21 @@
 }
 
 .car-info {
+  width: 100%;
+}
+
+.car-info-detail {
+  width: 20%;
+  border: 1px solid #ededed;
+  margin-bottom: 1em;
+  float: left;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-align: center;
   font-size: 1.5em;
-  width: 80%;
-  margin: 0em auto 0.7em auto;
+  margin-left: -1px;
 }
+
 
 .sub-container-title {
   font-size: 1.59em;
@@ -106,11 +116,11 @@
 }
 
 .relax-img {
-  width: 12em;
-  margin-top: 40em;
+  width: 11em;
+  margin-top: 30em;
   float: left;
   position: absolute;
-  margin-left: -12em;
+  margin-left: 4em;
 }
 
 .vente-sub-container-3 {
@@ -152,11 +162,15 @@
   margin-right: 2em;
 }
 
-.expertise-container {
+#expertise-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
   height: 38em;
+}
+
+.expertise {
+  font-size: 2.3em;
 }
 
 .expert-question {
@@ -171,6 +185,7 @@
   width: 20%;
   border: 1px solid #ededed;
   margin-bottom: 1em;
+  margin-left: -1px;
   float: left;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -189,7 +204,7 @@
   margin-left: 4em;
 }
 
-.prix-container {
+#prix-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
@@ -247,39 +262,59 @@
 
 .comparaison-img {
   width: 50%;
-  margin-top: 7em;
+  margin-top: 4em;
 }
 
 .prix-sub-container-2 {
-  margin-top: 5em;
+  margin-top: 7em;
   width: 48%;
   float: right;
   margin-bottom: 3em;
 }
 
-.achat-container {
+#achat-container {
   margin-top: 10em;
   background-color: white;
   padding: 1.5em;
   height: 75em;
 }
 
-#achat-info {
-  text-align: center;
+.achat-info {
+  float: left;
+  margin-top: 2em;
 }
 
-#achat-main-title {
-  margin-bottom: 1.5em;
+.achat-left-column {
+  width: 40%;
 }
 
-#achat-sub-title {
+.achat-right-column {
+  width: 60%;  
+}
+
+.achat-sub-title {
   font-weight: 600;
   font-size: 1.35em;
-  height: 4em;
+  height: 2em;
+  border: 1px solid #ededed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-left: -1px;
 }
 
-#achat-sub-content {
-  background-color: white;
+.achat-sub-content {
+  border: 1px solid #ededed;
+  height: 10em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 3em 2em 3em 2em;;
+  margin-left: -1px;
+  margin-top: -1px;
+
 }
 
 .achat-sub-container-1 {
@@ -299,7 +334,6 @@
   width: 30%;
   margin-right: 4.5em;
   margin-left: 1.5em;
-  margin-top: 2em;
 }
 
 .achat-sub-container-2 {
@@ -360,6 +394,7 @@
 
 @media (min-width: 320px) 
   and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   { 
 
   .top-menu {
@@ -404,65 +439,79 @@
 
   .car-info {
     font-size: 0.9em;
+    margin-left: -5px; 
+  }
+
+  .car-info-detail {
+    width: 95%;
+    margin-bottom: -1px;
+    float: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
     font-weight: bold;
-    margin-left: -10px; 
   }
 
-  .td-car-info {
-    padding: 3px;
+  #lieu {
+    margin-top: 27em;
   }
-
 
   .place-img {
     width: 20%;
     margin-left: 1.6em;
-    margin-top: 6.5em;
+    position: relative;
+    bottom: 3em;
+    margin-top: 0em;
   }
 
-  .vente-container {
+  #vente-container {
     height: 100%;
-    padding-bottom: 9em;
+    padding-bottom: 11em;
   }
 
   .vente-sub-container-1 {
     width: 100%;
     float: right;
-    margin-top: 4em;
+    margin-top: 6em;
     margin-bottom: 6em;
   }
 
   .vente-sub-container-2 {
     width: 100%;
     float: none;
-    margin-top: 38em;
+    margin-top: 10em;
   }
 
   .logo-sites {
     width: 100%;
     position: relative;
-    bottom: 38.5em;
+    bottom: 7em;
   }
 
   .vente-sub-container-3 {
     width: 100%;
     float: none;
+    margin-top: 21em;
   }
 
   .relax-img {
     position: relative;
-    bottom: 41em;
-    left: 14em;
-    width: 10em;
+    bottom: 1em;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0em;
+    float: none;
   }
 
   .vente-sub-container-4 {
     float: none;
     width: 100%;
-    margin-top: 12em;
+    margin-top: 9em;
   }
 
   .goodbye {
-    width: 80%;
+    width: 83%;
     margin-top: -2em;
   }
 
@@ -474,13 +523,13 @@
     width: 30%;    
   }
 
-  .expertise-container {
+  #expertise-container {
     height: 100%;
     padding-bottom: 5em;
   }
 
   .expertise {
-    font-size: 1.2em;
+    font-size: 2.2em;
   }
 
   .expert-question {
@@ -512,8 +561,8 @@
     margin-left: 0;
   }
 
-  .prix-container {
-    height: 138em;
+  #prix-container {
+    height: 137em;
   }
 
   .prix-titre {
@@ -550,23 +599,74 @@
   .prix-sub-container-2 {
     width: 100%;
     float: none;
-    margin-top: 2em;
+    margin-top: 9em;
   }
 
   .comparaison-img {
     width: 100%;
     position: relative;
-    margin-top: 0;
-    top: 36em;
+    margin-top: -2em;
   }
 
-  .achat-container {
+  #achat-container {
     height: 100%;
+    padding-bottom: 5em;
   }
 
   .achat-main-title {
     font-size: 1.6em;
     margin-bottom: 1em;
+  }
+
+  .achat-info {
+    float: none;
+    margin-top: 2em;
+  }
+
+  .achat-left-column {
+    width: 100%;
+  }
+
+  .achat-right-column {
+    width: 100%;  
+  }
+
+  .achat-sub-title {
+    font-weight: 600;
+    font-size: 1.35em;
+    height: 2em;
+    border: 1px solid #ededed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: -1px;
+  }
+
+  .achat-sub-title-right-column {
+    height: 4em;
+  }
+
+  .achat-sub-content {
+    border: 1px solid #ededed;
+    height: 10em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 3em 2em 3em 2em;;
+    margin-left: -1px;
+    margin-top: -1px;
+
+  }
+
+  .achat-sub-content-left-column {
+    height: 12em;
+  }
+
+  .achat-sub-content-right-column {
+    height: 20em;
   }
 
   .achat-sub-container-1 {
@@ -576,9 +676,11 @@
   }
 
   .car-check-img {
-    width: 45%;
-    margin-left: 5em;
-    margin-top: 0;
+    width: 42%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    bottom: 6em;
   }
 
   .achat-sub-container-2 {
@@ -589,14 +691,13 @@
   .lemonway-img {
     width: 76%;
     position: relative;
-    margin: 0 auto;
-    top: 26em;
+    bottom: 3em;
     margin-left: 9%;
   }
 
   .achat-sub-container-3 {
     width: 100%;
-    margin-top: 16em;
+    margin-top: 6em;
   }
 
   .mapfre-img {
