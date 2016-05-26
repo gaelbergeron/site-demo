@@ -25,10 +25,6 @@
   line-height: 1.4em;
 }
 
-.question-FAQ{
-  padding-right: 30em;
-}
-
 #question-n7 {
   padding-top: 5em;
   margin: 0 auto;
@@ -75,11 +71,11 @@
   padding-bottom: 0.5em;
 }
 
-#contact-phone-FAQ {
+.contact-phone-FAQ {
   margin-top: 8em;
   background-color: white;
   padding: 1.5em;
-  height: 18em;
+  height: 100%;
   text-align: center;
   padding-top: 3em;
   margin-bottom: 5em;
@@ -109,6 +105,29 @@
   .main-container-FAQ {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  #foirequestions {
+    font-size: 2.3em;
+  } 
+
+  .question-n7-title {
+    font-size: 1.8em;
+  }
+
+  .body-FAQ {
+    line-height: 1.4em;
+    font-size: 0.8em;
+  }
+
+  .question-FAQ{
+    padding-right: 2em !important;
+    font-size: 0.9em !important;
+  }
+
+  .contact-title-FAQ {
+    font-weight: 800;
+    font-size: 1.8em;
   }
 
 }
