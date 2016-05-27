@@ -28,6 +28,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Install Foundation 6 as CSS & JS framework
 gem 'foundation-rails'
 
+#Gem for intercom software
+gem "intercom-rails"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
