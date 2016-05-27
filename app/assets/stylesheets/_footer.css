@@ -82,6 +82,12 @@ footer {
   padding-top: 16em;
 }
 
+#siteseal {
+  width:3em;
+  justify-content: center;
+  display: flex;
+}
+
 @media (min-width: 320px) and (max-width: 667px) {
 
   footer {
