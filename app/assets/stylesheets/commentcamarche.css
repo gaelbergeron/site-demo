@@ -114,7 +114,8 @@
 }
 
 #largus-img {
-  float: right;
+  float: left;
+  margin-right: 3em;
 }
 
 #lacentrale-img {
