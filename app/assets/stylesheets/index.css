@@ -136,6 +136,25 @@ a:hover {
   border-radius: 8px;
 }
 
+.nos-voitures-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.voitures-title {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.voitures-img {
+  width: 20em;
+  margin: 1em;
+}
+
 .nos-partenaires-banner {
   display: flex;
   justify-content: center;
@@ -185,6 +204,18 @@ a:hover {
     margin-left: 2%;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  .nos-voitures-banner {
+    display: inherit;
+  }
+
+  .voitures-img {
+    margin: 1em 0 1em 0;
+  }
+
+  .voitures-title {
+    font-size: 3.3em;
   }
 
   .partenaires-title {
