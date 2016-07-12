@@ -15,6 +15,7 @@
 //= require foundation
 //= require turbolinks
 //= require jquery.turbolinks
+//= require magnific-popup
 //= require_tree .
 
 
@@ -22,5 +23,10 @@
 $(function(){ 
 
   $(document).foundation(); 
+
+  $('.open-popup-link').magnificPopup({
+    type:'inline',
+    midClick: true
+  });
 
 });
