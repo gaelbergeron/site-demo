@@ -189,7 +189,7 @@ a:hover {
   font-size: 2em;
   font-weight: 600;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .recherche-button {
@@ -207,6 +207,15 @@ a:hover {
   border-radius: 5px;
   width: 12.2em;
   color: white;
+}
+
+.popup-gratuit {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.popup-toutdesuite {
+  margin-top: 2em;
 }
 
 @media (min-width: 320px) 
